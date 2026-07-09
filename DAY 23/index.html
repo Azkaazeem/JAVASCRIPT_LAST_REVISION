@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Color Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1>Generate Random Colors</h1>
-    <button id="generate-btn">Generate Color</button>
-    <div id="color-box">your generated color will appear here</div>
-
+    <div class="container">
+        <div class="header">
+            <h1>Color Palette</h1>
+            <p>Generate stunning random colors instantly</p>
+        </div>
+        
+        <div class="color-display">
+            <div id="color-box"></div>
+        </div>
+        
+        <div class="controls">
+            <div class="hex-code-container">
+                <span id="hex-code">#FFFFFF</span>
+            </div>
+            <button id="generate-btn">
+                <span>Generate New Color</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 2v6h-6"></path>
+                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                    <path d="M3 8v6h6"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#generate-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#color-box {
+    width: 800px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
